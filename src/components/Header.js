@@ -1,6 +1,6 @@
 import { signOut } from 'firebase/auth';
 import React from 'react'
-import { auth } from '../utils/firebase';
+import { auth } from '../utils/firebaseAPI';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
