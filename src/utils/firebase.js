@@ -8,6 +8,8 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+//add to gitignore
 const firebaseConfig = {
   apiKey: "AIzaSyAIBX11vXjrBJ8UR9Xwwz4CbK5j8ebFaVQ",
   authDomain: "nextflix-gpt-deeca.firebaseapp.com",
