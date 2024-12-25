@@ -34,7 +34,6 @@ const Login = () => {
                     // Signed up 
                     const user = userCredential.user;
                     // console.log(user);
-                    navigate("/browse")
 
                 })
                 .catch((error) => {
@@ -59,7 +58,6 @@ const Login = () => {
                             displayName:displayName,
                             photoURL: photoURL
                         }))
-                        navigate("/browse")
                       }).catch((error) => {
                         setErrorMessage(error.message)
                       });
